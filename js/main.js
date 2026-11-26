@@ -76,30 +76,48 @@ const translations = {
     heroTitle: "Hi, I'm Alaa Ahmad",
     heroSubtitle: "Computer Engineering Graduate & Full-Stack Developer",
     sectionWorksTitle: "Featured Projects",
+
     // Project 1
     p1Title: "Making Connections",
     p1Desc:
       "An interactive profile dynamic dashboard featuring real-time connection requests management. Implemented advanced DOM manipulation to handle profile toggling, record isolation, and instant mathematical counter updates upon user interactions.",
+
     // Project 2
     p2Title: "Palestine Weather",
     p2Desc:
       "An interactive weather forecast dashboard featuring real-time temperature unit conversion (°C/°F) and client-side cookie consent. Integrated dynamic DOM injection to programmatically append custom forecast cards without disrupting the current page state.",
+
     // Project 3
     p3Title: "Interactive Calculator",
     p3Desc:
       "A functional web calculator featuring real-time mathematical expression evaluation. Implemented event delegation for grid layout interaction, tokenized expression parsing using JavaScript array manipulation, and customized arithmetic error boundaries including prevention of division by zero.",
+
     // Project 4
     p4Title: "Global Weather App",
     p4Desc:
       "A dynamic weather application communicating with RESTful Web APIs via asynchronous JavaScript Fetch. Features defensive error boundaries for API exceptions, structural programmatic node generation, live data injection (humidity, local time, timezone tracking), and instant remote asset rendering.",
+
     // Project 5
     p5Title: "2D Arcade Shooter Game",
     p5Desc:
       "A dynamic 2D arcade shooter built on HTML5 Canvas using Object-Oriented JavaScript (ES6 Modules). Features an isolated game loop, velocity vectors, real-time collision detection formulas, custom particles system, and asynchronous configuration fetching across 10 progressive JSON levels.",
+
+    // Project 6
+    localHarvestTitle: "LocalHarvest",
+    localHarvestDesc:
+      "A full-stack agricultural marketplace connecting local farmers, customers, and volunteers. Features produce listings, reservations, farm approval workflows, volunteer opportunities, role-based access, and AI-assisted features.",
+
+    // Project 7
+    barberTitle: "Barber Shop Smart Booking System",
+    barberDesc:
+      "A full-stack appointment booking and management system featuring dynamic scheduling, overlapping booking prevention, service duration handling, barber break management, role-based dashboards, revenue analytics, and an AI chatbot.",
+
     aboutMeTitle: "Alaa Ahmad",
     aboutBio:
-      "Results-driven Computer Engineering graduate from Birzeit University and certified Full-Stack Developer. I possess hands-on experience in building scalable web structures and implementing responsive web architectures with modern front-end frameworks.",
+      "Computer Engineering graduate and Full-Stack Developer with hands-on experience building web applications using Python, Django, JavaScript, and relational databases. Experienced in database-driven applications, authentication, authorization, and responsive user interfaces.",
+
     skillsTitle: "Technical Proficiencies",
+
     // Contact Section
     contactTitle: "Get In Touch",
     contactPrompt:
@@ -113,6 +131,7 @@ const translations = {
     downloadCV: "MY CV",
     liveDemo: "Live Demo",
   },
+
   ar: {
     navWorks: "أعمالي",
     navAbout: "من أنا",
@@ -120,30 +139,48 @@ const translations = {
     heroTitle: "أهلاً، أنا علاء أحمد",
     heroSubtitle: "خريج هندسة حاسوب ومطور ويب متكامل",
     sectionWorksTitle: "المشاريع المميزة",
+
     // المشروع الأول
     p1Title: "إدارة طلبات التواصل (Making Connections)",
     p1Desc:
       "لوحة تحكم ديناميكية تفاعلية لإدارة الحساب وطلبات التواصل الاجتماعي. تم تطويرها عبر معالجة متقدمة لعناصر الـ DOM لإتاحة قبول أو رفض الطلبات، وعزل البيانات الرقمية لتحديث عدادات الأصدقاء والطلبات فورياً وبشكل حيوي.",
+
     // المشروع الثاني
     p2Title: "طقس فلسطين (Palestine Weather)",
     p2Desc:
       "لوحة عرض وتنبؤ بحالة الطقس تدعم التحويل الديناميكي لدرجات الحرارة بين المئوية والفهرنهايت، ونظام محلي للموافقة على ملفات تعريف الارتباط. يتضمن ميزة الحقن البرمجي لكروت الطقس الجديدة فورياً في الـ DOM مع دعم كامل لمرونة وتجاوب التصميم.",
+
     // المشروع الثالث
     p3Title: "آلة حاسبة تفاعلية (Calculator)",
     p3Desc:
       "آلة حاسبة برمجية متكاملة تدعم تقييم ومعالجة التعبيرات الرياضية فورياً. تم بناؤها باستخدام خاصية تفويض الأحداث (Event Delegation) لإدارة نقرات الأزرار، وتحليل الرموز النصية برمجياً عبر مصفوفات مخصصة لتنفيذ الحسابات مع تفعيل جدار حماية لمنع الأخطاء الحسابية مثل القسمة على صفر.",
+
     // المشروع الرابع
     p4Title: "تطبيق الطقس العالمي (Weather App)",
     p4Desc:
-      "تطبيق طقس حيوي يتواصل مع واجهات برمجة التطبيقات RESTful APIs الخارجية باستخدام الـ Fetch والبرمجة غير المتزامنة Asynchronous JavaScript. يتضمن ميزات جدار الحماية ضد استثناءات الـ API، وتوليد عناصر الـ DOM برمجياً وعرض تفاصيل الرطوبة، التوقيت المحلي، النطاق الزمني، وحقن الأيقونات الحية المستضافة عن بُعد فورياً.",
+      "تطبيق طقس حيوي يتواصل مع واجهات برمجة التطبيقات RESTful APIs الخارجية باستخدام الـ Fetch والبرمجة غير المتزامنة Asynchronous JavaScript. يتضمن ميزات جدار الحماية ضد استثناءات الـ API، وتوليد عناصر الـ DOM برمجياً وعرض تفاصيل الرطوبة، التوقيت المحلي، النطاق الزمني، وحقن الأيقونات الحية المست hostedة عن بُعد فورياً.",
+
     // المشروع الخامس
     p5Title: "لعبة إطلاق نار ثنائية الأبعاد (2D Arcade Game)",
     p5Desc:
       "لعبة حركة ثنائية الأبعاد مبنية على بيئة الرسم HTML5 Canvas باستخدام الهيكلية كائنية التوجه (OOP) ووحدات ES6. تتضمن حلقة ألعاب معزولة (Game Loop)، وحساب متجهات السرعة، وخوارزميات رصد التصادم فورياً، ونظام جزيئات متطور، مع جلب إعدادات الصعوبة برمجياً وتدريجياً عبر 10 مستويات محملة من ملفات JSON.",
+
+    // المشروع السادس
+    localHarvestTitle: "حصادنا المحلي | LocalHarvest",
+    localHarvestDesc:
+      "منصة زراعية متكاملة تربط المزارعين المحليين والعملاء والمتطوعين. تشمل عرض المنتجات والحجوزات وإجراءات الموافقة على المزارع وفرص التطوع وصلاحيات المستخدمين وميزات مدعومة بالذكاء الاصطناعي.",
+
+    // المشروع السابع
+    barberTitle: "نظام حجز وإدارة صالون الحلاقة الذكي",
+    barberDesc:
+      "نظام متكامل لحجز وإدارة المواعيد يتضمن جدولة ديناميكية ومنع تداخل الحجوزات وإدارة مدة الخدمات واستراحات الحلاق ولوحات تحكم حسب الأدوار وتحليلات الإيرادات ومساعداً ذكياً.",
+
     aboutMeTitle: "علاء أحمد",
     aboutBio:
-      "خريج هندسة حاسوب من جامعة بيرزيت ومطور ويب متكامل معتمد. أمتلك خبرة عملية في بناء تطبيقات الويب القابلة للتوسع وتطوير واجهات مستخدم متجاوبة باستخدام أحدث التقنيات.",
+      "خريج هندسة حاسوب ومطور Full-Stack، لدي خبرة عملية في بناء تطبيقات ويب باستخدام Python وDjango وJavaScript وقواعد البيانات. أعمل على تطبيقات تعتمد على قواعد البيانات، وتسجيل الدخول والصلاحيات، وواجهات مستخدم متجاوبة.",
+
     skillsTitle: "المهارات والخبرات التقنية",
+
     // قسم الاتصال
     contactTitle: "تواصل معي",
     contactPrompt: "لا تتردد في التواصل معي بخصوص الشراكات أو الفرص المهنية!",
